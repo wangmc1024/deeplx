@@ -1,11 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "account_id": "a08609b02c62e7b9d110039cd01cd29a",
-  "analytics_engine_datasets": [
-    {
-      "binding": "ANALYTICS"
-    }
-  ],
   "compatibility_date": "2026-07-22",
 
 
