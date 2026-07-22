@@ -15,7 +15,7 @@
     }
   ],
   "main": "src/index.ts",
-  "name": "translate_cloudflare",
+  "name": "deeplx",
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,
