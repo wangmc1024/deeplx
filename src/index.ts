@@ -347,4 +347,5 @@ app
    * Catch-all route for undefined paths
    * Redirects all other requests to the GitHub repository
    */
-  .all("*", (c) => c.redirect("https://github.com/xixu-me/DeepLX"));
+  .all("*", (c) => c.redirect("https://github.com/wangmc1024/deeplx"));
+
