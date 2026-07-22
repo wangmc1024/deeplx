@@ -1,33 +1,33 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "account_id": "07c56e0dc4b3b1597495aa78fe7ebbf8",
+  "account_id": "a08609b02c62e7b9d110039cd01cd29a",
   "analytics_engine_datasets": [
     {
       "binding": "ANALYTICS"
     }
   ],
-  "compatibility_date": "2025-07-19",
+  "compatibility_date": "2026-07-22",
+
+
   "kv_namespaces": [
     {
       "binding": "CACHE_KV",
-      "id": "4d5895d8716247f486493b93edbc5fe9",
-      "preview_id": "e9e499fe006e4879a0668e792fe2dd15"
+      "id": "5bd185af65e8426d9d52cf6bb429b46b",
     },
     {
       "binding": "RATE_LIMIT_KV",
-      "id": "07147ca64a4c48fe952f62afe469bb44",
-      "preview_id": "bbed039364e5488e8ed58701c3ee5da5"
+      "id": "c063353403224a18961796cfdbd4025a",
     }
   ],
   "main": "src/index.ts",
-  "name": "deeplx",
+  "name": "translate_cloudflare",
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,
     "logs": {
       "enabled": true,
       "head_sampling_rate": 1,
-      "invocation_logs": true,
+      "invocation_logs": true,,
       "persist": true
     },
     "traces": {
@@ -44,7 +44,7 @@
   },
   "vars": {
     "DEBUG_MODE": "false",
-    "PROXY_URLS": "https://0.xdpl.xixu.dpdns.org/jsonrpc,https://1.xdpl.xixu.dpdns.org/jsonrpc,https://2.xdpl.xixu.dpdns.org/jsonrpc,https://3.xdpl.xixu.dpdns.org/jsonrpc,https://4.xdpl.xixu.dpdns.org/jsonrpc,https://5.xdpl.xixu.dpdns.org/jsonrpc,https://6.xdpl.xixu.dpdns.org/jsonrpc,https://7.xdpl.xixu.dpdns.org/jsonrpc,https://8.xdpl.xixu.dpdns.org/jsonrpc,https://9.xdpl.xixu.dpdns.org/jsonrpc"
+    "PROXY_URLS": "https://translatevercel1.vercel.app/jsonrpc,https://translate-vercel-2.vercel.app/jsonrpc,https://translate-vercel-3.vercel.app/jsonrpc,https://translatevercel.vercel.app/jsonrpc,https://translate-vercel-4.vercel.app/jsonrpc"
   },
   "workers_dev": false
 }
