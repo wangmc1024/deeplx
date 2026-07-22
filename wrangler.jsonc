@@ -39,7 +39,7 @@
   },
   "vars": {
     "DEBUG_MODE": "false",
-    "PROXY_URLS": "https://translatevercel1.vercel.app/jsonrpc,https://translate-vercel-2.vercel.app/jsonrpc,https://translate-vercel-3.vercel.app/jsonrpc,https://translatevercel.vercel.app/jsonrpc,https://translate-vercel-4.vercel.app/jsonrpc"
+    "PROXY_URLS": "https://translatevercel1.vercel.app/jsonrpc,https://translate-vercel-2.vercel.app/jsonrpc,https://translate-vercel-3.vercel.app/jsonrpc,https://translatevercel.vercel.app/jsonrpc,https://translate-vercel-4.vercel.app/jsonrpc,https://translate-vercel-5.vercel.app/jsonrpc,https://translate-vercel-6.vercel.app/jsonrpc,https://translate-vercel-7.vercel.app/jsonrpc,https://translate-vercel-8.vercel.app/jsonrpc,https://translate-vercel-9.vercel.app/jsonrpc,https://translate-vercel-10.vercel.app/jsonrpc"
   },
   "workers_dev": true
 }
